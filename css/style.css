@@ -1,0 +1,117 @@
+body {
+          padding-top: 50px;
+          position: relative;
+      }
+      
+      pre {
+          tab-size: 8;
+      }
+      
+      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }
+
+      ul li a{
+
+
+        font-size: 19px;
+      }
+
+      .bienvenu h2,h3
+
+      {
+         text-align: center;
+        color:#fff;
+        background: blue;
+        margin-top: 200px;
+      }
+     
+      .thum
+        {
+
+         margin-top: -50px;
+
+      }
+  /*  commande vu*/
+   .panel
+        {
+          margin: 5%;
+          background: transparent;
+        }
+
+
+        tr
+        {
+          transition: all 0.5s;
+        }
+        tr:hover
+        {
+          background-color: #f0ad4e;
+          transition: 0.5s;
+        }
+        .btn-warning
+        {
+          transition: all 0.8s;
+        }
+
+        .btn-warning:hover, .btn-warning:focus
+        {
+          transition: 0.8s;
+          background-color: #428bca;
+          border-color: #428bca;
+        }
+
+        .panel-footer
+        {
+          background-color: #5bc0de;
+          color: white;
+        }
+
+
+
+        .error {display:none;color:red;}
+
+
+        .center {
+    margin-top:50px;   
+}
+
+.modal-header {
+  padding-bottom: 5px;
+}
+
+.modal-footer {
+      padding: 0;
+  }
+    
+.modal-footer .btn-group button {
+  height:40px;
+  border-top-left-radius : 0;
+  border-top-right-radius : 0;
+  border: none;
+  border-right: 1px solid #ddd;
+}
+  
+.modal-footer .btn-group:last-child > button {
+  border-right: 0;
+}
